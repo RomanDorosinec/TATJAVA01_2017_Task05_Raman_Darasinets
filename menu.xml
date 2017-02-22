@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<m:menu xmlns:m="http://com.epam.task5/menu">
+    <cold-snacks>
+        <meal title="Ассорти рыбное">
+            <photo>1</photo>
+            <description>
+                <ingredients>
+                    <ingredient>Слабосоленая форель, семга</ingredient>
+                    <cost> </cost>
+                </ingredients>
+            </description>
+            <portion>100/20/15</portion>
+        </meal>
+        <meal title="Тарталетки с красной икрой">
+            <photo>2</photo>
+            <description>
+                <ingredients>
+                    <ingredient>Тарталетки с красной икрой</ingredient>
+                    <cost> </cost>
+                </ingredients>
+            </description>
+            <portion>60/50</portion>
+        </meal>
+        <meal title="Закуска по-русски">
+            <photo>3</photo>
+            <description>
+                <ingredients>
+                    <ingredient>Кусочки атлатической сельди с отварным картофелем, луком, лимоном и зеленью</ingredient>
+                    <cost> </cost>
+                </ingredients>
+            </description>
+            <portion>70/50/2/10</portion>
+        </meal>
+        <meal title="Куриный рулет">
+            <photo>4</photo>
+            <description>
+                <ingredients>
+                    <ingredient>Куриный рулет собвственного производства</ingredient>
+                    <cost> </cost>
+                </ingredients>
+            </description>
+            <portion>100/50</portion>
+        </meal>
+        <meal title="Бастурма">
+            <photo>5</photo>
+            <description>
+                <ingredients>
+                    <ingredient>Вяленая вырезка из говяжьего мяса</ingredient>
+                    <cost> </cost>
+                </ingredients>
+            </description>
+            <portion>50/5</portion>
+        </meal>
+        <meal title="Ассорти мясное">
+            <photo>6</photo>
+            <description>
+                <ingredients>
+                    <ingredient>Нарезка из буженины, баструмы, куриного рулета собственного производства и колбасы
+                    </ingredient>
+                    <cost> </cost>
+                </ingredients>
+            </description>
+            <portion>100/30</portion>
+        </meal>
+        <meal title="Язык отварной">
+            <photo>7</photo>
+            <description>
+                <ingredients>
+                    <ingredient>Нарезка нежного говяжьего языка, подается с хреном</ingredient>
+                    <cost> </cost>
+                </ingredients>
+            </description>
+            <portion>80/20/1</portion>
+        </meal>
+        <meal title="Ассорти баклажаны">
+            <photo>8</photo>
+            <description>
+                <ingredients>
+                    <ingredient>Жаренные баклажаны с помидорами</ingredient>
+                    <cost> </cost>
+                </ingredients>
+                <ingredients>
+                    <ingredient>с помидорами</ingredient>
+                    <cost> </cost>
+                </ingredients>
+                <ingredients>
+                    <ingredient>с чесноком</ingredient>
+                    <cost> </cost>
+                </ingredients>
+                <ingredients>
+                    <ingredient>с орехами</ingredient>
+                    <cost> </cost>
+                </ingredients>
+            </description>
+            <portion> </portion>
+        </meal>
+    </cold-snacks>
+    <hot-snacks>
+        <meal title="Лобио с шампиньонами">
+            <photo>1</photo>
+            <description>
+                <ingredients>
+                    <ingredient>Фасоль с шампиньонами и грецким орехом</ingredient>
+                    <cost>105</cost>
+                </ingredients>
+            </description>
+            <portion>150/5</portion>
+        </meal>
+        <meal title="Жульен">
+            <photo>2</photo>
+            <description>
+                <ingredients>
+                    <ingredient>с курицей</ingredient>
+                    <cost>145</cost>
+                </ingredients>
+                <ingredients>
+                    <ingredient>с грибами</ingredient>
+                    <cost>155</cost>
+                </ingredients>
+            </description>
+            <portion>120/1</portion>
+        </meal>
+        <meal title="Ахтамар мясной">
+            <photo>3</photo>
+            <description>
+                <ingredients>
+                    <ingredient>Колбаса, ветчина, буженина, сыр, запеченные на мангале в лаваше</ingredient>
+                    <cost>165</cost>
+                </ingredients>
+            </description>
+            <portion>1 шт.</portion>
+        </meal>
+        <meal title="Ахтамар с овощами">
+            <photo>4</photo>
+            <description>
+                <ingredients>
+                    <ingredient>Сыр, помидоры, зелень, запеченные на мангале в лаваше</ingredient>
+                    <cost>150</cost>
+                </ingredients>
+            </description>
+            <portion>1 шт.</portion>
+        </meal>
+        <meal title="Сюрприз">
+            <photo>5</photo>
+            <description>
+                <ingredients>
+                    <ingredient></ingredient>
+                    <cost>260</cost>
+                </ingredients>
+            </description>
+            <portion>1 шт.</portion>
+        </meal>
+    </hot-snacks>
+    <breakfasts>
+        <meal title="Глазунья">
+            <photo>1</photo>
+            <description>
+                <ingredients>
+                    <ingredient>	2 яйца (на выбор: ветчина, сыр, помидоры)</ingredient>
+                    <cost> </cost>
+                </ingredients>
+            </description>
+            <portion>150</portion>
+        </meal>
+        <meal title="Омлет">
+            <photo>2</photo>
+            <description>
+                <ingredients>
+                    <ingredient> </ingredient>
+                    <cost> </cost>
+                </ingredients>
+            </description>
+            <portion>100</portion>
+        </meal>
+        <meal title="Блинчики с мясом">
+            <photo>3</photo>
+            <description>
+                <ingredients>
+                    <ingredient>Жаренные блинчики с мясом</ingredient>
+                    <cost> </cost>
+                </ingredients>
+            </description>
+            <portion>150</portion>
+        </meal>
+    </breakfasts>
+</m:menu>

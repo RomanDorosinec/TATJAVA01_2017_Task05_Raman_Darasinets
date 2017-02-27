@@ -5,6 +5,8 @@ import com.epam.task5.controller.commad.Command;
 import com.epam.task5.parser.XMLParse;
 import com.epam.task5.parser.exception.ParserException;
 import com.epam.task5.parser.factory.ParserFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,18 +14,20 @@ import java.util.HashMap;
 /**
  *
  */
-public class CallSax implements Command{
+public class CallSax implements Command {
     private static final String XML_PATH = "menu.xml";
 
+    private static final Logger logger = LogManager.getLogger(CallSax.class);
+
     @Override
-    public HashMap<String, ArrayList<Dish>>  execute(String xmlPath) {
+    public HashMap<String, ArrayList<Dish>> execute(String xmlPath) {
         HashMap<String, ArrayList<Dish>> allDish = null;
         try {
             ParserFactory parserFactory = ParserFactory.getInstance();
             XMLParse saxParser = parserFactory.getSAXParser();
             allDish = saxParser.getMeals(XML_PATH);
         } catch (ParserException e) {
-
+            logger.error(e);
         }
         return allDish;
     }

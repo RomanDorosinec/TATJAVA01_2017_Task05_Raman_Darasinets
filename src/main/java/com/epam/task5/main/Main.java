@@ -23,7 +23,7 @@ public class Main {
 
     private static void menuOutput(HashMap<String, ArrayList<Dish>> allDish) {
         for (String key : allDish.keySet()) {
-            System.out.println("                " + key);
+            System.out.println(key.toUpperCase());
             for (Dish values : allDish.get(key)) {
                 System.out.println(values.toString());
             }

@@ -70,4 +70,28 @@ public class Dish {
     public void setCost(String cost) {
         this.cost = cost;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+
+        Dish dish = (Dish) obj;
+
+        if (photo != null ? !photo.equals(dish.photo) : dish.photo != null) return false;
+        if (title != null ? !title.equals(dish.title) : dish.title != null) return false;
+        if (description != null ? !description.equals(dish.description) : dish.description != null) return false;
+        if (portion != null ? !portion.equals(dish.portion) : dish.portion != null) return false;
+        return cost != null ? cost.equals(dish.cost) : dish.cost == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = photo != null ? photo.hashCode() : 0;
+        result = 31 * result + (title != null ? title.hashCode() : 0);
+        result = 31 * result + (description != null ? description.hashCode() : 0);
+        result = 31 * result + (portion != null ? portion.hashCode() : 0);
+        result = 31 * result + (cost != null ? cost.hashCode() : 0);
+        return result;
+    }
 }
